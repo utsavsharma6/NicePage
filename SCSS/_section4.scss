@@ -10,11 +10,30 @@
     font-weight: 700;
 }
 .card {
-    &.dark1{
+    &.dark{
         width: 100%;
         margin: 30px 30px;
         background-color:$third-color;
         border-radius: 20px;
+        text-align: left;  
+        color:#fff;    
+    }
+    &.light{
+        color:#fff;
+        width: 100%;
+        margin: 30px 30px;
+        background-color: #8fc0c3;
+        border-radius: 20px;
         text-align: left;
     }
 }
+
+.cd1{
+    color:#fff;
+}
+.para4{
+    padding:1rem;
+    font-weight:300;
+}
+
+
