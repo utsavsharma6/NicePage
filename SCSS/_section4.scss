@@ -1,0 +1,20 @@
+.section-4 {
+    background-color: #eef3fb;
+    width: 100%;
+}
+
+.head4{
+    color:$third-color;
+    font-size: 3.75rem;
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+.card {
+    &.dark1{
+        width: 100%;
+        margin: 30px 30px;
+        background-color:$third-color;
+        border-radius: 20px;
+        text-align: left;
+    }
+}
