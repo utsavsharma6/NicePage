@@ -1,0 +1,52 @@
+.section-7 {
+    background-color: #eef3fb;
+    width: 100%;
+}
+
+.card {
+    &.one{
+        width: 100%;
+        margin: 30px 30px;
+        background-color: #8fc0c3;
+        border-radius: 20px;
+        text-align: left;
+    }
+    &.two{
+        width: 100%;
+        margin: 30px 30px;
+        background-color: #8fc0c3;
+        border-radius: 20px;
+        text-align: left;
+   }
+   &.three{
+        width: 100%;
+        margin: 30px 30px;
+        background-color: #8fc0c3;
+        border-radius: 20px;
+        text-align: left;
+   }
+}
+.card-body{
+    padding: 10px 5px;
+}
+
+.card-title {
+    color: #2c4776;
+    font-size: 1.5rem;
+    font-weight:600;
+    margin: 40px 20px;
+    padding: 10px 10px;
+}
+ 
+.card-text {
+    color: #eef3fb;
+    font-size: 2.25rem;
+    line-height: 1.1;
+    margin: 5px 20px;
+    padding: 10px 10px;
+}
+
+.btn{
+    margin: 10px 20px;
+    padding: 10px 10px;
+}
