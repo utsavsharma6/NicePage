@@ -1,0 +1,20 @@
+.form{
+    background-color: $first-color;
+    font-size: 1.15rem;
+}
+.text1{
+    width:100%;
+    background-color: $first-color;
+    border:none;
+    border-bottom:1px solid #4c3776;
+    padding: 5px 5px;
+    font-size: 1rem;
+}
+.email{
+    @extend .text1;
+}
+.textarea{
+    @extend .text1;
+}
+
+
