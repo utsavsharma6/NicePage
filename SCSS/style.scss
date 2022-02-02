@@ -15,8 +15,9 @@
     margin: 0;
     padding: 0;
 }
-section{
-    + section {
+
+section {
+    +section {
         padding-top: 40px;
     }
 }
@@ -65,9 +66,9 @@ p {
     font-size: 1.25rem;
     line-height: 1.4;
 }
-.cd1{
-    color:#fff;
-    font-size:1.25rem;
-    font-weight:300;
-}
 
+.cd1 {
+    color: #fff;
+    font-size: 1.25rem;
+    font-weight: 300;
+}
