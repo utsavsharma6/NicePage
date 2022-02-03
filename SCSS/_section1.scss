@@ -1,16 +1,35 @@
 @import'buttons';
 
-.section-1{
+.section-1 {
     background-color: $first-color;
     padding: 40px 0 40px 0;
 }
-.col4{
+
+.col4 {
     background-color: $third-color;
-    
+    border-radius: 20px;
+    padding: 10px 0 5px 10px;
 }
-.img1{
+
+.h1 {
+    color: #fff;
+}
+
+.p1 {
+    font-size: 1.125rem;
+    color: #d9d9d9;
+    padding-bottom: 10px;
+}
+
+a.link {
+    color: #fff;
+    text-decoration: underline;
+    &:hover {
+        color: #d9d9d9;
+    }
+}
+
+.img1 {
     object-fit: cover;
     border-radius: 20px;
 }
-
-
