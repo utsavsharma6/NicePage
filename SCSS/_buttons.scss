@@ -2,34 +2,35 @@
     display: inline-block;
     border: 2px solid #fff;
     padding: 15px 70px;
-    margin: 10px;
+    margin-bottom: 60px;
     border-radius: 30px;
     color:#fff;
     font-size:1.25rem;
     text-decoration: none;
-}
-.btn-main:hover{
-    color:$third-color;
-    text-decoration: none;
-    background-color: #fff;
+    &:hover{
+        color:$third-color;
+        text-decoration: none;
+        background-color: #fff;
+    }
 }
 .btn-main1{
     display: inline-block;
     width: 100%;
     border: none;
     padding: 8px 10px;
-    margin:10px 10px;
     border-radius: 30px;
     color:#fff;
     background-color: $third-color;
     cursor:pointer;
     font-size:1.25rem;
     font-weight:600;
+    &:hover{
+        background-color: $second-color;
+        border:none;
+    }
 }
-.btn-main1:hover{
-     background-color: $second-color;
-     border:none;
-}
+
+
 .btn{
     display: inline-block;
     border:none;

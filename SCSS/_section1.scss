@@ -2,14 +2,15 @@
 
 .section-1{
     background-color: $first-color;
+    padding: 40px 0 40px 0;
 }
 .col4{
     background-color: $third-color;
     
 }
-.h1{
-    color:#fff;
+.img1{
+    object-fit: cover;
+    border-radius: 20px;
 }
-
 
 

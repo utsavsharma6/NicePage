@@ -6,9 +6,11 @@
     font-weight: 700;
     margin-bottom:15px;
 }
-.ul{
-    margin-left:20px;
-    margin-bottom: 20px;
+.ul1 {
+    list-style-type: none;
+}
+li::before{
+    list-style-image: url('add2.png');
 }
 .img6{
     border-radius: 10px;
