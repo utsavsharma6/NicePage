@@ -9,9 +9,17 @@
 .ul1 {
     list-style-type: none;
 }
-li::before{
-    list-style-image: url('add2.png');
+
+.ul1{
+    li{
+        font-size: 1.25rem;
+        &:before{
+            content: '+';
+            margin-left:1.5px;
+        }
+    }
 }
+
 .img6{
     border-radius: 10px;
     object-fit: cover;

@@ -6,12 +6,25 @@
 }
 .container-1{
     width: 100%;
-    min-height:800px;
+    margin-bottom: 100px;
+    position: relative;
+}
+.row-1{
+    position: relative;
+}
+.col4{
+    position: absolute;
+    height:450px;
+    border-radius: 20px;
+    background-color: $second-color;
+    left: 4%;
+    bottom: 50%;
+    top:30%;
 }
 
 .col6 {
-    position:relative;
-    left:20%;
+    position:absolute;
+    left:0;
     top: 30%;
     height:600px;
     background-color: $third-color;
@@ -23,18 +36,18 @@
 .head1 {
     color: #fff;
     font-size: 3.75rem;
-    padding:100px 100px 20px 220px;
+    padding:100px 100px 20px 250px;
 }
 
 .p1 {
     font-size: 1.125rem;
     color: #d9d9d9;
     padding-bottom: 10px;
-    padding:10px 100px 20px 220px;
+    padding:10px 100px 20px 250px;
 
 }
 .p2{
-    padding:10px 100px 40px 220px;
+    padding:10px 100px 40px 250px;
 
 }
 
@@ -52,5 +65,5 @@ a.link {
     position: absolute;
     left:10%;
     top:15%;
-    z-index: 1;
+    z-index: 100;
 }
