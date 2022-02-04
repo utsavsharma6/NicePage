@@ -14,8 +14,7 @@
     li{
         font-size: 1.25rem;
         &:before{
-            content: '+';
-            margin-left:1.5px;
+            content: '\002B';
         }
     }
 }
