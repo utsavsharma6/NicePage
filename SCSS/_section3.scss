@@ -1,29 +1,30 @@
 @import 'buttons';
-.section-3{
+
+.section-3 {
     background-color: #fff;
     padding-bottom: 40px;
 }
 
-.head3{
-        color: $third-color;
-        font-size:3.75rem;
-        letter-spacing: 1.2px;
-        line-height: 1.1;
-        font-weight:600;
-    }
-
-.rounded-circle{
-        margin-top: 20px;
-        height: 75px;
-        width:75px;
-        display: inline-block;
-        background-color: $second-color;
+.head3 {
+    color: $third-color;
+    font-size: 3.75rem;
+    letter-spacing: 1.2px;
+    line-height: 1.1;
+    font-weight: 600;
 }
-    
-    
+
+.rounded-circle {
+    margin-top: 20px;
+    height: 75px;
+    width: 75px;
+    display: inline-block;
+    background-color: $second-color;
+}
+
+
 .card {
-    &.four{
-        color:#fff;
+    &.four {
+        color: #fff;
         width: 100%;
         height: 100%;
         background-color: #8fc0c3;
@@ -31,7 +32,7 @@
     }
 }
 
-.para3{
+.para3 {
     font-size: 1.25rem;
     line-height: 2;
     font-weight: 400;

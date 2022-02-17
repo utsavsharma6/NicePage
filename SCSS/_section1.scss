@@ -4,55 +4,60 @@
     background-color: $first-color;
     padding: 40px 0 40px 0;
 }
-.container-1{
+
+.container-1 {
     width: 100%;
     margin-bottom: 100px;
     position: relative;
 }
-.row-1{
+
+.row-1 {
     position: relative;
 }
-.col4{
+
+.col4 {
     position: absolute;
-    height:450px;
+    height: 450px;
     border-radius: 20px;
     background-color: $second-color;
     left: 3%;
-    top:30px;
+    top: 30px;
 }
 
 .col8 {
-    position:absolute;
-    left:0;
+    position: absolute;
+    left: 0;
     top: 0;
-    height:600px;
+    height: 600px;
     background-color: $third-color;
     border-radius: 20px;
     text-align: left;
-    
+
 }
 
 .head1 {
     color: #fff;
     font-size: 3.75rem;
-    margin:80px 0 20px 250px;
+    margin: 80px 0 20px 250px;
 }
 
 .p1 {
     font-size: 1.125rem;
     color: #d9d9d9;
     padding-bottom: 10px;
-    margin:10px 100px 20px 250px;
+    margin: 10px 100px 20px 250px;
 
 }
-.p2{
-    margin:10px 100px 20px 250px;
+
+.p2 {
+    margin: 10px 100px 20px 250px;
 
 }
 
 a.link {
     color: #fff;
     text-decoration: underline;
+
     &:hover {
         color: #d9d9d9;
     }
@@ -62,7 +67,7 @@ a.link {
     object-fit: cover;
     border-radius: 20px;
     position: absolute;
-    left:100px;
-    top:100px;
+    left: 100px;
+    top: 100px;
     z-index: 100;
 }

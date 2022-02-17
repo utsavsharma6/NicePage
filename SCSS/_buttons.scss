@@ -1,57 +1,54 @@
-.btn-main{
+.btn-main {
     display: inline-block;
     border: 2px solid #fff;
     padding: 15px 35px;
     border-radius: 20px;
-    color:#fff;
-    font-size:1.25rem;
+    color: #fff;
+    font-size: 1.25rem;
     text-decoration: none;
-    &:hover{
-        color:$third-color;
+
+    &:hover {
+        color: $third-color;
         text-decoration: none;
         background-color: #fff;
     }
 }
-.btn-main1{
+
+.btn-main1 {
     display: inline-block;
     width: 100%;
     border: none;
     padding: 8px 10px;
     border-radius: 30px;
-    color:#fff;
+    color: #fff;
     background-color: $third-color;
-    cursor:pointer;
-    font-size:1.25rem;
-    font-weight:600;
-    &:hover{
+    cursor: pointer;
+    font-size: 1.25rem;
+    font-weight: 600;
+
+    &:hover {
         background-color: $second-color;
-        border:none;
+        border: none;
     }
 }
 
 
-a.btn{
+a.btn {
     display: inline-block;
-    border:none;
-    color:$third-color;
+    border: none;
+    color: $third-color;
     text-decoration: none;
     margin: 0 0 15px 15px;
-    font-weight:700;
-    font-size:1.1rem ;
+    font-weight: 700;
+    font-size: 1.1rem;
     letter-spacing: 2px;
-    &::after{
-        content:'\2192';
+
+    &::after {
+        content: '\2192';
     }
-    &:hover{
+
+    &:hover {
         text-decoration: underline;
-        color:$third-color;
+        color: $third-color;
     }
 }
-
-
-
-
-
-
-
-
